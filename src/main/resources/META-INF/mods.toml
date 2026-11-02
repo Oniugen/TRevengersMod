@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="tokyorevengers"
+version="1.0.0"
+displayName="Tokyo Revengers (Fan Mod)"
+description='''
+Mod de fã inspirado em Tokyo Revengers: gangues, personagens, sistema de reputação e combate.
+'''
+
+[[dependencies.tokyorevengers]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tokyorevengers]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

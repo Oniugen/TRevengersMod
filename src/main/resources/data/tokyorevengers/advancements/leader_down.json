@@ -1,0 +1,23 @@
+{
+  "parent": "tokyorevengers:first_blood",
+  "display": {
+    "icon": {"item": "tokyorevengers:mikey_spawn_egg"},
+    "title": {"translate": "advancements.tokyorevengers.leader_down.title"},
+    "description": {"translate": "advancements.tokyorevengers.leader_down.description"},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "mikey": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "tokyorevengers:mikey"}}},
+    "osanai": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "tokyorevengers:osanai"}}},
+    "kisaki": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "tokyorevengers:kisaki"}}},
+    "taiju": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "tokyorevengers:taiju"}}},
+    "izana": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "tokyorevengers:izana"}}},
+    "senju": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "tokyorevengers:senju"}}},
+    "south": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "tokyorevengers:south"}}},
+    "kensho": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "tokyorevengers:kensho_hishi"}}},
+    "kiyomasa": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "tokyorevengers:kiyomasa"}}}
+  },
+  "requirements": [["mikey", "osanai", "kisaki", "taiju", "izana", "senju", "south", "kensho", "kiyomasa"]]
+}

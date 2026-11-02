@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {"item": "tokyorevengers:iron_pipe"},
+    "title": {"translate": "advancements.tokyorevengers.root.title"},
+    "description": {"translate": "advancements.tokyorevengers.root.description"},
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "start_your_story": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"item": "tokyorevengers:taiyaki"}]}}
+  }
+}
